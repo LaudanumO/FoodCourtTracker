@@ -1,0 +1,40 @@
+﻿body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+}
+.draggable {
+    width: 50px;
+    height: 60px;
+    padding: 7px;
+    float: left;
+    font-size: .6em;
+    border:1px solid black;
+    text-align:center;
+    background-color:#ffd800;
+    margin: 5px;
+    cursor:grab;
+}
+.draggable:active{
+    cursor:grabbing;
+}
+
+.ui-widget-header p, .ui-widget-content p {
+    margin: 0;
+}
+.buutOff {
+    background-color: blanchedalmond;
+    font-size: 7em;
+}
+.buttOff {
+    background-color: darkkhaki;
+    font-size: 7em;
+}
+.draggable button {
+    width: 45px;
+    height: 20px;
+    font-size: .6em;
+}
+.ignoreme {
+    pointer-events: none;
+}
